@@ -1,0 +1,386 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.herosection{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../image/pexels-mateusz-salaciak-4275885\ \(1\).jpg)
+    no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#avi{
+    margin-left: 47px;
+}
+.navbar{
+    opacity: 77.7%;
+    padding: 17px 0;
+}
+.pill i {
+    padding-top: 57px;
+    font-size: 30px;
+}
+.pill a{
+    color: #FAFAFA;
+}
+.figure{
+    width: 73%;
+    margin: auto;
+    text-align: center;
+    height: 64px;
+    padding: 125px 0px; 
+  display: block;
+}
+.figure h4{
+    opacity: 82%;
+}
+.card{
+    width: 18rem;
+}
+.card a{
+    text-decoration: none;
+}
+.card h2 span{
+    color: yellowgreen;
+}
+#thirdUl li{
+    display: inline-block;
+    padding: 0 3px;
+}
+#thirdUl li i{
+    font-size: 33px;
+}
+.myColumn i{
+    font-size: 53px;
+}
+.myServices ul li h2 span{
+    color: yellowgreen;
+}
+.myServices ul li:last-child{
+    float: right;
+    margin-top: -37px;
+    color: white;
+}
+.myServices ul li a{
+    color: white;
+    background-color: yellowgreen;
+    padding: 5px 7px;
+    display: none;
+}
+#firstUl li a,
+#secondUl li a,
+#thirdUl li a{
+    color: #232323;
+}
+.squares i{
+    cursor: pointer;
+}
+#project{
+    margin-right: -15px;
+    margin-left: -20px;
+}
+.services{
+    background-color: #FAFAFA;
+    max-width: 100%;
+    margin-bottom: -46px;
+}
+.myColumn{
+    background-color: white;
+}
+.myColumn h2{
+    font-size: 22px;
+}
+.myColumn p{
+    font-size: 15px;
+    opacity: 75.4%;
+}
+.green {
+    background-color: #A0CE4E;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -47px;
+}
+.hire{
+    border-radius: 0;
+    padding: 12px 23px;
+}
+.myColumnClient{
+    background-color: #232323;
+}
+.myColumn{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.myColumn:hover, .myColumn:focus, .myColumn:active{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* .imgColumn:hover img {
+    transform: scale(1.1);
+}
+.imgColumn img {
+    transition: all ease-in-out 0.4s;
+} */
+#client-list{
+    margin: 0;
+}
+.myColumnClient p{
+    opacity: 80%;
+}
+.client{
+    background-color: #FAFAFA;
+}
+.person ul{
+    margin-bottom: 54px;
+}
+.carousel-indicators li{
+    position: relative;
+    top: 53px;
+    background-color: yellowgreen;
+    padding: 7px 3px;
+}
+#formtext,
+#textArea{
+    border-radius: 0;
+}
+.myClient ul li span,
+.ourProject span,
+.myContact span{
+    color: yellowgreen;
+}
+.myColumnClient img{
+padding-top: 18px;
+width: 37%;
+
+height: 143px;
+}
+.person ul li{
+    display: inline-block;
+}
+.myServices span:nth-child(2),
+.myClient span:first-child,
+.ourProject span:first-child,
+.myContact span:first-child
+{
+    border-bottom: 1px solid black;
+    border-bottom-width: 2px;    
+}
+.imgColumn img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 39px;
+}
+
+.contact{
+    background-color: #FAFAFA;
+}
+.connect{
+    display: inline-flex;
+}
+#rect{
+    padding: 0;
+}
+.connect ul{
+    text-align: left;
+    margin-top: -4px;
+}
+.connect span i{
+font-size: 20px;
+padding-right: 5px;
+color: beige;
+padding-left: 16px;
+padding-top: 13px;
+}
+.connect span{
+background-color: black;
+margin-bottom: 22px;
+padding-right: 10px;
+margin-right: 8px;
+margin-top: 2px;
+}
+.contacts{
+    text-align: left;  
+}
+.contact .btn{
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 0;
+    padding: 9px 24px;
+    margin-bottom: 90px;
+}
+.footer{
+    text-align: center;
+    background-color:  #232323;
+    color: white;
+    margin-bottom: -17px;
+}
+.footer p{
+    padding: 26px 0;
+}
+.footer p span{
+    background-color: yellowgreen;
+    padding: 9px 14px;
+    opacity: 47.2%;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+.footer p span a{
+    color: black;
+}
+
+
+
+
+
+@media (min-width: 768px)
+{ 
+.figure{
+    display: block;
+    width: 44%;
+    margin: auto;
+    text-align: center;
+    height: 64px;
+    padding: 125px 0px; 
+}
+.figure {
+    width: 34%;
+}
+.card{
+    width: 47rem;
+flex-direction: row;
+}
+#navbarNav ul a:hover{
+    color: yellowgreen;
+    border-bottom: 1px solid yellowgreen;
+}
+.contacts{
+    flex: 0 0 33%;
+max-width: 35%;
+padding-right: 8px;
+padding-left: 8px;
+}
+#project{
+    margin-left: -39px;
+}
+#rect{
+    max-width: 91%;
+}
+#forms{
+    margin-top: 28px;
+}
+#imgColumnLast img{
+    margin-left: -350px;
+}
+}
+
+
+
+
+@media (min-width: 992px)
+{
+   
+    .card{
+        width: 58rem;
+    }
+    #firstUl li{
+    display: inline-block;
+    }
+    #firstUl li:last-child,
+    #secondUl li:last-child{
+        padding-left: 17%;
+    }
+    #secondUl li:last-child{
+        padding-left: 19%;
+    }
+    #secondUl li{
+    display: inline-block;
+    }
+    .col-md-3 {
+        flex: 0 0 26%;
+        max-width: 26%;
+    }
+    .myColumn2{
+        margin: 0 -86px;
+    }
+    .myColumnClient{
+        max-width: 85.667%;
+    }
+    .myColumnClient img{
+        height: 176px;
+width: 117px;
+    }
+    .squares i{
+     color: yellowgreen;
+    }
+    .imgColumn2{
+        margin: 0px -48px;
+    }
+    #project{
+        margin-right: -18px;
+        margin-left: -23px;
+    }
+    .imgColumn img{
+        margin-bottom: 0px;
+    }
+    #imgColumnLast img{
+        margin-left: 0px;
+    }
+    #contacts2{
+        margin: 0 -135px;
+    }
+    #forms{
+        padding: 0 90px;
+    }
+
+}
+
+
+
+@media (min-width: 1200px)
+{
+    #secondUl li:last-child{
+        padding-left: 171px;
+    }
+    .figure {
+        width: 28%;
+    }
+    .imgColumn2 {
+        margin: 0px -186px;
+    }
+    #project {
+        margin-right: -36px;
+margin-left: -31px;
+    }
+  #rect{
+      max-width: 80%;
+  }
+    #navbarNav{
+        margin-left: 256px;
+    }
+    #connect2{
+        padding-left: 31px;
+    }
+    #connect3{
+        padding-left: 59px;
+    }
+}
